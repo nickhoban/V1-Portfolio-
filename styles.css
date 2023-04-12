@@ -143,33 +143,88 @@
 
   /* CSS for About Me Section */ 
 
-  .about-me {
-    padding: 50px 0;
-  }
+    .about-me {
+      padding: 50px 0;
+    }
 
-  .about-me-content {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .about-me-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-
-  @media screen and (max-width: 768px) {
     .about-me-content {
-      flex-direction: column;
-      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 20px;
     }
 
     .about-me-image {
-      width: 100px;
-      height: 100px;
-      margin-bottom: 20px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    @media screen and (max-width: 768px) {
+      .about-me-content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about-me-image {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+      }
+    }
+
+  /* CSS for Contact Me Section */
+
+  .contact-section {
+    padding: 50px 0;
+  }
+
+  .contact-form {
+    display: grid;
+    gap: 15px;
+    max-width: 500px;
+    margin-top: 20px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+
+  @media screen and (max-width: 768px) {
+    .contact-form {
+      max-width: 100%;
     }
   }
 }
