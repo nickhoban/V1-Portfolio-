@@ -232,6 +232,7 @@
 
   .reflection-section {
     padding: 50px 0;
+    text-align: center;
   }
   
   .reflection-content,
@@ -247,15 +248,27 @@
   ul {
     list-style-type: disc;
     padding-left: 20px;
+    display: inline-block;
+    text-align: left;
   }
   
   li {
     margin-bottom: 10px;
   }
   
+  .challenges strong,
+  .successes strong {
+    display: block;
+  }
+  
+  .challenges li,
+  .successes li {
+    text-align: left;
+  }
+  
   @media screen and (max-width: 768px) {
     ul {
       padding-left: 10px;
     }
-  }
+  }  
 }
