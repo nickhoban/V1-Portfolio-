@@ -27,20 +27,20 @@
     text-align: center;
   }
 
-  nav {
+  navbar {
     display: flex;
     justify-content: center;
     margin-top: 20px;
   }
   
-  nav a {
+  navbar a {
     color: #333;
     text-decoration: none;
     padding: 10px;
     margin: 0 5px;
   }
   
-  nav a:hover {
+  navbar a:hover {
     color: #555;
   }
 
