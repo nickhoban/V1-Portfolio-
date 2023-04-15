@@ -236,9 +236,7 @@
     text-align: center;
   }
   
-  .reflection-content,
-  .challenges,
-  .successes {
+  .reflection-content {
     margin-bottom: 20px;
   }
   
@@ -255,16 +253,6 @@
   
   li {
     margin-bottom: 10px;
-  }
-  
-  .challenges strong,
-  .successes strong {
-    display: block;
-  }
-  
-  .challenges li,
-  .successes li {
-    text-align: left;
   }
   
   @media screen and (max-width: 768px) {
