@@ -21,7 +21,7 @@
   }
 
   header {
-    background-color: lightgray;
+    background-color: black;
     padding: 20px 0;
   }
   
@@ -197,7 +197,7 @@
   input[type="email"],
   textarea {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid lightgray;
     border-radius: 5px;
     font-family: inherit;
   }
@@ -207,7 +207,7 @@
   }
 
   button[type="submit"] {
-    background-color: #333;
+    background-color: black;
     color: #fff;
     padding: 10px;
     border: none;
@@ -217,7 +217,7 @@
   }
 
   button[type="submit"]:hover {
-    background-color: #555;
+    background-color: #434343;
   }
 
   @media screen and (max-width: 768px) {
