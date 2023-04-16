@@ -135,12 +135,7 @@
       flex-direction: column;
       text-align: center;
     }
-  
-    .profile-photo {
-      width: 120px;
-      height: auto;
-      margin-bottom: 20px;
-    }
+
   }  
 
   /* CSS for About Me Section */ 
