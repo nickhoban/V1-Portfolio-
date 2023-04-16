@@ -115,11 +115,6 @@
     gap: 20px;
   }
   
-  .profile-photo {
-    width: 80px;
-    height: auto;
-  }
-  
   .social-links {
     display: flex;
     gap: 10px;
@@ -142,8 +137,8 @@
     }
   
     .profile-photo {
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: auto;
       margin-bottom: 20px;
     }
   }  
