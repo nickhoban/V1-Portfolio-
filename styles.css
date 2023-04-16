@@ -117,9 +117,7 @@
   
   .profile-photo {
     width: 80px;
-    height: 80px;
-    border-radius: 20%;
-    object-fit: cover;
+    height: auto;
   }
   
   .social-links {
