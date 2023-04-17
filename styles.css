@@ -33,8 +33,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
-
-
   
   header h1 {
     color: #fff;
@@ -142,6 +140,12 @@
   .social-links a:hover {
     color: #555;
   }
+
+  .img-rounded {
+    margin-top: 20px; /* Adjust the space above the image */
+    margin-bottom: 20px; /* Adjust the space below the image */
+  }
+  
   
   @media screen and (max-width: 768px) {
     .home-content {
@@ -163,24 +167,10 @@
       gap: 20px;
     }
 
-    .about-me-image {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      gap: 20px;
-    }
-
     @media screen and (max-width: 768px) {
       .about-me-content {
         flex-direction: column;
         text-align: center;
-      }
-
-      .about-me-image {
-        width: 100px;
-        height: 100px;
-        margin-bottom: 20px;
       }
     }
 
