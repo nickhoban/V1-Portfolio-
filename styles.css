@@ -21,8 +21,11 @@
   }
 
   header {
-    background-color: black;
     padding: 60px 0;
+    background-image: url('images/todo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   header h1 {
