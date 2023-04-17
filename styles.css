@@ -46,7 +46,7 @@
     justify-content: center; /* Centres the elements in this case everything in <a> */
     margin-top: 20px; /* Adds a 20 pixel margin to the top of the nav element creating space */
     text-align: center;
-    text-size-adjust: 16px;
+    font-size: 16px;
   }
   
   nav a {
