@@ -69,26 +69,6 @@
     margin: 50px 0;
   }
   
-  .portfolio-item {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .portfolio-item img {
-    width: 70%;
-    height: auto;
-  }
-  
-  .portfolio-item h3 {
-    padding: 10px;
-    font-size: 18px;
-  }
-  
-  .portfolio-item p {
-    padding: 10px;
-    font-size: 16px;
-  }
   footer {
     background-color: #333;
     color: #fff;
