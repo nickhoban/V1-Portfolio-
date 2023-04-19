@@ -117,38 +117,5 @@
 
   /* CSS for Home Page Section */
 
-  .home-section {
-    padding: 50px 0;
-  }
-  
-  .home-content {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .social-links {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-  }
-  
-  .social-links a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .social-links a:hover {
-    color: #555;
-  }
-
-  
-  @media screen and (max-width: 768px) {
-    .home-content {
-      flex-direction: column;
-      text-align: center;
-    }
-
-  }  
 
   /* CSS for About Me Section */
