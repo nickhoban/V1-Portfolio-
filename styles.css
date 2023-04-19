@@ -172,17 +172,4 @@
 
   /* CSS for Contact Me Section */
 
-  .heading-contact {
-    margin-top: 20px; /* Adjust the space above the text */
-    margin-bottom: 20px; /* Adjust the space below the text */
-  }
-
   /* CSS for Reflection Page */
-
-  
-  @media screen and (max-width: 768px) { 
-    ul {
-      padding-left: 10px;
-    }
-  }  
-}
