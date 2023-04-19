@@ -22,17 +22,13 @@
   }
 
   header {
-    background-color: black;
-    padding: 60px 0;
-  }
-
-  /* To replace to add header background  
-
   padding: 60px 0;
-  background-image: url('path/to/your/local/image.jpg');
+  background-image: url('images/Forest.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover; 
+
+  }
   
   header h1 {
     color: #fff;
