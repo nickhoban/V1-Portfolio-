@@ -97,23 +97,6 @@
     margin-top: 50px;
   }
   
-  @media screen and (max-width: 768px) { /*This media query targets devices with a screen width of 768 pixels or less. It checks if the 
-    device has a screen bigger than 768 pixels. If the conditions are ture it applies a left padding of 10 pixels. This to to accomodate different screen sizes. 
-    I have put media querys in all sections to ensure the website accmodates difference sizes. */
-
-    nav {
-      flex-direction: column;
-    }
-  
-    nav a {
-      margin-bottom: 5px;
-    }
-  
-    .portfolio {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-
-
 
   /* CSS for Home Page Section */
 
