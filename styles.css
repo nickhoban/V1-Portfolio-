@@ -40,6 +40,13 @@
 
   }
 
+  .img-rounded {
+    width: 200px;
+    height: auto;
+    margin-top: 20px; /* Adjust the space above the image */
+    margin-bottom: 20px; /* Adjust the space below the image */
+  }
+
   nav {
     display: flex; /*Sets the display property of nav element ot flex, enabling a flexible layout for its elements */
     justify-content: center; /* Centres the elements in this case everything in <a> */
