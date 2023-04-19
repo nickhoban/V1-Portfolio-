@@ -96,6 +96,12 @@
     font-size: 16px;
   }
 
+
+  .reflection-content h4,
+  .reflection-content p {
+    margin-bottom: 5em; /* Adjust this value to increase or decrease the spacing */
+  }
+
   
   /* CSS for Footer */ 
 
