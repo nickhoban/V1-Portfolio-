@@ -1,10 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body { /* Applies style to body elements */
+body { /* Applies style to body elements */
     
     font-family: 'Arial', sans-serif; 
     font-size: 16px;
@@ -49,7 +43,7 @@
 
   nav {
     display: flex; /*Sets the display property of nav element ot flex, enabling a flexible layout for its elements */
-    justify-content: center; /* Centres the elements in this case everything in <a> */
+    justify-content: center; /* Centres the elements */
     margin-top: 20px; /* Adds a 20 pixel margin to the top of the nav element creating space */
     text-align: center;
     font-size: 16px;
