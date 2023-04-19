@@ -151,25 +151,4 @@
 
   }  
 
-  /* CSS for About Me Section */ 
-
-    .about-me {
-      padding: 50px 0;
-    }
-
-    .about-me-content {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-    }
-
-    @media screen and (max-width: 768px) {
-      .about-me-content {
-        flex-direction: column;
-        text-align: center;
-      }
-    }
-
-  /* CSS for Contact Me Section */
-
-  /* CSS for Reflection Page */
+  /* CSS for About Me Section */
