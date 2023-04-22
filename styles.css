@@ -66,9 +66,9 @@
     color: lightslategray;
   }
 
-  /* CSS for Portfolio Section */ 
+  /* CSS for Portfolio Section, used ChatGPT to assist with grid and template columns */ 
 
-  .portfolio {
+  .portfolio { 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 10px;
