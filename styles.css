@@ -9,7 +9,7 @@
     font-family: 'Arial', sans-serif; 
     font-size: 16px;
     line-height: 1.6;
-    color:#333;
+    color:black;
     text-align: center;
   }
 
@@ -30,7 +30,7 @@
   }
   
   header h1 {
-    color: #fff;
+    color: white;
     text-align: center;
     
   }
@@ -76,7 +76,7 @@
   }
   
   .portfolio-item {
-    border: 1px solid #ccc;
+    border: 1px solid lightgray;
     border-radius: 5px;
     overflow: hidden;
   }
